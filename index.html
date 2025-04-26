@@ -6,20 +6,25 @@
     <form>
     <fieldset style="background-color: #e6e6fa;">
     <legend> Personal Information </legend>
+      <div style="display:inline-block;">
     <label for="fname">First Name:</label><br>
     <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
     <label for="lname">Last Name:</label><br>
     <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+      </div>
+      <div style="display:inline-block;">
     <label for="email">Email:</label><br>
     <input type="email" id="email" name="email" placeholder="Email"><br><br>
     <label for="dob">Date of Birth:</label><br>
     <input type="date" id="dob" name="dob"><br><br>
+      </div>
     <label for="favcolor">Favorite Color:</label><br>
     <input type="file" id="favcolor" name="favcolor"><br>
     </fieldset>
 
     <fieldset style="background-color: #dcdcdc;">
     <legend>Preferences</legend>
+      <div style="display:inline-block;">
     <label>Favorite Web Language:</label><br>
     <input type="radio" id="html" name="favlang" value="HTML">
     <label for="html">HTML</label>
@@ -37,7 +42,9 @@
     <input type="checkbox" id="boat" name="device3" value="Boat">
     <label for="boat">Boat</label>
     <br><br>
+      </div>
 
+      <div style="display:inline-block;">
     <label for="carselect">Choose Your Car:</label><br>
     <select id="carselect" name="carselect" size="4">
       <option value="volvo">Volvo</option>
@@ -50,17 +57,20 @@
     <label for="time">Available Time:</label><br>
     <input type="time" id="time" name="time">
     <br>
-
+      </div>
   </fieldset>
 
   <fieldset style="background-color: #f0f8ff;">
     <legend>Feedback & Settings</legend>
 
+    <div style="display:inline-block;">
     <label for="feedback">Feedback:</label><br>
     <input type="text" id="feedback" name="feedback" placeholder="Write your feedback"><br><br>
     <label for="country">Country Code:</label><br>
     <input type="text" id="country" name="country" placeholder="ABC"><br><br>
     <label for="satisfaction">Satisfaction Level:</label><br>
+    </div>
+    <div style="display:inline-block;">
     <input type="range" id="satisfaction" name="satisfaction" min="0" max="100" value="75">
     <br>
     Value: 75
@@ -69,7 +79,7 @@
     <input type="number" id="age" name="age" value="30"><br><br>
     <label for="month">Month Selection:</label><br>
     <input type="month" id="month" name="month" value="2024-04"><br>
-
+    </div>
   </fieldset>
 
     <br><br>
