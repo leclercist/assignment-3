@@ -1,6 +1,6 @@
 <html>
 <title> assignment no. 03 </title>
-<body style="background-color: #f2f2f2;"> <font-family;"monsterrat">
+<body style="background-color: #f2f2f2;"> <font-family;"playfair display">
 <h1 align="left" style="font-size:30px;"> FORM <h1>
   <div align="left">
     <form>
@@ -32,11 +32,11 @@
 
     <label style="font-size:20px;"><b>Devices You Own:</b></label><br>
     <input type="checkbox" id="bike" name="device1" value="Bike" style="font-size:10px;">
-    <label for="bike">Bike</label>
+    <label for="bike" style="font-size:20px;">Bike</label>
     <input type="checkbox" id="car" name="device2" value="Car" style="font-size:10px;">
-    <label for="car">Car</label>
+    <label for="car" style="font-size:20px;">Car</label>
     <input type="checkbox" id="boat" name="device3" value="Boat" style="font-size:10px;">
-    <label for="boat">Boat</label>
+    <label for="boat" style="font-size:20px;">Boat</label>
     <br><br>
       
     <label for="carselect" style="font-size:20px;"><b>Choose Your Car:</b></label><br>
@@ -63,8 +63,7 @@
     <label for="satisfaction" style="font-size:20px;"><b>Satisfaction Level:</b></label><br>
       <input type="range" id="satisfaction" name="satisfaction" min="0" max="100" value="10" oninput="updateValue(this.value)">
 <br>
-      <style="font-size:10px;">
-        <span id="sliderValue">10</span>
+        <span id="sliderValue" style="font-size:10px;">10</span>
 <br><br>
       <script>
 function updateValue(val) {
@@ -72,9 +71,9 @@ function updateValue(val) {
 }
 </script>
     
-    <label for="age"><b>Age:</b></label><br>
+    <label for="age" style="font-size:20px;"><b>Age:</b></label><br>
     <input type="number" id="age" name="age" value="30" style="font-size:10px;"><br><br>
-    <label for="month"><b>Month Selection:</b></label><br>
+    <label for="month" style="font-size:20px;"><b>Month Selection:</b></label><br>
     <input type="month" id="month" name="month" value="2024-04" style="font-size:10px;"><br>
   </fieldset>
 
