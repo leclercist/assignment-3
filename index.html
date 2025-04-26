@@ -69,10 +69,10 @@
     <label for="country" style="font-size:30px;"><b>Country Code:</b></label><br>
     <input type="text" id="country" name="country" placeholder="ABC" style="font-size:20px;"><br><br>
     <label for="satisfaction" style="font-size:30px;"><b>Satisfaction Level:</b></label><br>
-    <input type="range" id="satisfaction" name="satisfaction" min="0" max="100" value="75" style="font-size:20px;">
-    <br>
-    Value: 75
-    <br><br>
+      <input type="range" id="satisfaction" name="satisfaction" min="0" max="100" value="75" oninput="updateValue(this.value)">
+<br>
+Value: <span id="sliderValue">75</span>
+<br><br>
     </div>
     
     <div style="display:inline-block; font-size:20px;">
